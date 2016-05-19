@@ -1,0 +1,9 @@
+tmp/*
+webroot/files/*
+webroot/img/*
+webroot/js/app.js
+webroot/index.php
+Config/database.php
+Config/core.php
+Config/email.php
+!empty

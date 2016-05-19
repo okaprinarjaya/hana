@@ -1,0 +1,271 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.search-area {
+    margin-bottom: 25px;
+}
+
+.navbar-brand {
+    background: url('../../img/hana_ci.png') no-repeat 0 -5px;
+    display: block;
+    width: 330px;
+    text-align: right;
+    padding-top: 25px;
+}
+
+.page-header h2 {
+    color: #D82153;
+}
+
+.page-header-detail-page h2 {
+  color: #01A483;
+}
+
+.page-header-detail-page h3 {
+  color: #01A483;
+}
+
+.row h3 {
+    color: #01A483;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.row .page-header-detail-page h3 {
+    color: #D82153;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.kb-item-wrap {
+  margin: 0 0 -10px 50px;
+  padding: 0;
+  border-left: 1px #DDDDDD solid;
+}
+
+.kb-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-kb-item li {
+  margin-bottom: 15px;
+}
+
+.kb-item h3 a, .sidebar-kb-item a {
+  color: #01A483;
+}
+
+.kb-item h3 a:hover, .sidebar-kb-item a:hover {
+	text-decoration: none;
+	color: #519CC1;
+}
+
+.sidebar {
+  border: 1px #DDDDDD solid;
+  background: #f8f8f8;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#footer > .container .text-muted {
+  margin: 5px 0;
+}
+
+/* CKEDITOR */
+.ckeditor-default
+{
+  /* Font */
+  font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+
+  /* Text color */
+  color: #333;
+
+  /* Remove the background color to make it transparent */
+  background-color: #fff;
+
+  margin: 20px;
+}
+
+.ckeditor-default .cke_editable
+{
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.ckeditor-default blockquote
+{
+  font-style: italic;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  padding: 2px 0;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 0;
+}
+
+.ckeditor-default .cke_contents_ltr blockquote
+{
+  padding-left: 20px;
+  padding-right: 8px;
+  border-left-width: 5px;
+}
+
+.ckeditor-default .cke_contents_rtl blockquote
+{
+  padding-left: 8px;
+  padding-right: 20px;
+  border-right-width: 5px;
+}
+
+.ckeditor-default a
+{
+  color: #0782C1;
+}
+
+.ckeditor-default ol, .ckeditor-default ul, .ckeditor-default dl
+{
+  /* IE7: reset rtl list margin. (#7334) */
+  *margin-right: 0px;
+  /* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+  padding: 0 40px;
+}
+
+.ckeditor-default h1, .ckeditor-default h2, .ckeditor-default h3, h4.ckeditor-default , .ckeditor-default h5, .ckeditor-default h6
+{
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.ckeditor-default h1 {
+  font-size: 3em;
+}
+
+.ckeditor-default hr
+{
+  border: 0px;
+  border-top: 1px solid #ccc;
+}
+
+.ckeditor-default img.right
+{
+  border: 1px solid #ccc;
+  float: right;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.ckeditor-default img.left
+{
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.ckeditor-default pre
+{
+  white-space: pre-wrap; /* CSS 2.1 */
+  word-wrap: break-word; /* IE7 */
+}
+
+.ckeditor-default .marker
+{
+  background-color: Yellow;
+}
+
+.ckeditor-default span[lang]
+{
+   font-style: italic;
+}
+
+.ckeditor-default figure
+{
+  text-align: center;
+  border: solid 1px #ccc;
+  border-radius: 2px;
+  background: rgba(0,0,0,0.05);
+  padding: 10px;
+  margin: 10px 20px;
+  display: block; /* For IE8 */
+}
+
+.ckeditor-default figure figcaption
+{
+  text-align: center;
+  display: block; /* For IE8 */
+}
+
+.ckeditor-default table {
+  width: 100%;
+}
+
+.ckeditor-default table td {
+  padding: 4px;
+}
+
+/**/
+
+/* PAGING */
+/** Paging **/
+.paging {
+  background:#fff;
+  color: #ccc;
+  margin-top: 1em;
+  clear:both;
+}
+.paging .current,
+.paging .disabled,
+.paging a {
+  text-decoration: none;
+  padding: 5px 8px;
+  display: inline-block
+}
+.paging > span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-left: 0;
+}
+.paging > span:hover {
+  background: #efefef;
+}
+.paging .prev {
+  border-left: 1px solid #ccc;
+  -moz-border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+.paging .next {
+  -moz-border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+.paging .disabled {
+  color: #ddd;
+}
+.paging .disabled:hover {
+  background: transparent;
+}
+.paging .current {
+  background: #efefef;
+  color: #c73e14;
+}
+/**/
